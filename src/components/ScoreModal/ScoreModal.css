@@ -1,0 +1,25 @@
+.modal {
+    position: absolute;
+    top: 16%; 
+    background-color: #DED996;
+    z-index: 2;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+    border: 6px solid #543846;
+}
+
+.score-title {
+    color: #FE8161;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.high-score {
+    -webkit-text-stroke: 2px rgb(50, 35, 43);
+    color: #fff;
+    font-size: 2em;
+    margin-top: 10px;
+}
